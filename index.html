@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Collage Web App</title>
+</head>
+
+<body>
+    <center>
+        <h1 style="color: beige;">COLLAGE WEB APP </h1>
+        <div id="underline"></div>
+        <h3>Please click allow as soon as the pop-up appears</h3>
+        <h4>Say "selfie" to take your selfie after clicking on the start button</h4>
+        <br>
+        <textarea readonly="true" id="text_area"></textarea>
+        <button onclick="start()" id="start" class="btn btn-success">Start</button>
+        <h5>Press the start button</h5>
+        <br>
+        <h3 style="color:rgb(251, 252, 252)">Your Webcam:</h3>
+        <div id="webcam">
+            <div id="camera123"></div>
+        </div>
+        <h3 style="color: rgb(255, 255, 255)">Your Collage:</h3>
+        <h5>scroll down and click on the button to change the layout</h5>
+    </center>
+    <div id="picture1"></div>
+    <div id="picture2"></div>
+    <div id="picture3"></div>
+    <center>
+        <br>
+        <button onclick="change_layout()" class="btn btn-primary">Change Layout</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </center>
+    <div id="footer">
+        <h3>Developed by-Delisha Jain</h3>
+    </div>
+
+</body>
+<script src="main.js " ></script>
+
+</html>
